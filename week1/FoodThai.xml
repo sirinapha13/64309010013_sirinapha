@@ -9,4 +9,44 @@
         <FoodName>ข้าวผัด</FoodName>
         <Price>200</Price>
     </ThaiFood>
+    <ThaiFood>
+        <FoodID>003</FoodID>
+        <FoodName>หอยทอด</FoodName>
+        <Price>190</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>004</FoodID>
+        <FoodName>ไข่ตุ๋น</FoodName>
+        <Price>150</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>005</FoodID>
+        <FoodName>ต้มยำ</FoodName>
+        <Price>250</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>006</FoodID>
+        <FoodName>ปลาทอด</FoodName>
+        <Price>120</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>007</FoodID>
+        <FoodName>แกงส้ม</FoodName>
+        <Price>130</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>008</FoodID>
+        <FoodName>ไข่เจียว</FoodName>
+        <Price>50</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>009</FoodID>
+        <FoodName>ฉุ่ฉี่ปลาฉลาม</FoodName>
+        <Price>350</Price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>010</FoodID>
+        <FoodName>ต้มข่าไก่</FoodName>
+        <Price>100</Price>
+    </ThaiFood>
 </food>
