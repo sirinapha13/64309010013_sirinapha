@@ -4,4 +4,9 @@
         <FoodName>ผัดไทย</FoodName>
         <Price>120</Price>
     </ThaiFood>
+    <ThaiFood>
+        <FoodID>002</FoodID>
+        <FoodName>ข้าวผัด</FoodName>
+        <Price>200</Price>
+    </ThaiFood>
 </food>
