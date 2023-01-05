@@ -1,82 +1,112 @@
-[{
-    "ID": 1,
-    "name":"พิจารณา",
-    "poster": "jujutsu.jpg",
-    "artist": "มัสเกตเทียส์",
-    "music genre": "เพลงรัก hip hop",
-    "data": "8 กันยายน 2565",
-    "viewer": 40000000
-    
-},{
-    "ID": 2,
-    "name":"ไม่ไหวบอกไหว",
-    "poster": "jujutsu.jpg",
-    "artist": " บอย Peacemaker",
-    "music genre": "เพลงป๊อป",
-    "data": "30 มีนาคม 2562",
-    "viewer": 181846822   
-},{
-    "ID": 3,
-    "name":"ภาวนา",
-    "poster": "jujutsu.jpg",
-    "artist": "บิ๊ก ออแกร์นิค",
-    "music genre": "เพลงไทย hiphop",
-    "data": "23 มีนาคม 2563",
-    "viewer": 18423885
-},{
-    "ID": 4,
-    "name":"ภาพจำ",
-    "poster": "jujutsu.jpg",
-    "artist": " ป๊อป ปองกูล",
-    "music genre": "เพลงป๊อป",
-    "data": "9 มีนาคม 2561",
-    "viewer": 138856370
-},{
-    "ID": 5,
-    "name":"ซ่อนกลิ่น",
-    "poster": "jujutsu.jpg",
-    "artist": " ปาล์มมี่",
-    "music genre": "เพลงป๊อป",
-    "data": "9 ตุลาคม 2561",
-    "viewer": 230375537
-},{
-    "ID": 6,
-    "name":"รถของเล่น",
-    "poster": "jujutsu.jpg",
-    "artist": " เสือโคร่ง",
-    "music genre": "เพลงป๊อป",
-    "data": "4 มีนาคม 2556",
-    "viewer": 177145993 
-},{
-    "ID": 7,
-    "name":"เรื่องที่ขอ",
-    "poster": "jujutsu.jpg",
-    "artist": " ลุลา",
-    "music genre": "เพลงป๊อป",
-    "data": "16 กันยายน 2560",
-    "viewer": 190409155
-},{
-    "ID": 8,
-    "name":"เจ็บจนพอ",
-    "poster": "jujutsu.jpg",
-    "artist": " แว่นใหญ่",
-    "music genre": "เพลงป๊อป",
-    "data": "6 เมษายน 2562",
-    "viewer": 218650417
-},{
-    "ID": 9,
-    "name":"ทางของฝุ่น",
-    "poster": "jujutsu.jpg",
-    "artist": "อะตอม ชนกันต์",
-    "music genre": "เพลงป๊อป",
-    "data": "18 กุมภาพันธ์ 2559",
-    "viewer": 134648128
-},{
-    "ID": 10,
-    "name":"ลูกอม",
-    "poster": "jujutsu.jpg",
-    "artist": " วัชราวลี",
-    "music genre": "เพลงป๊อป",
-    "data": "31 ตุลาคม 2552",
-    "viewer": 191626660 
-}]
+{
+  "musicblog": [
+    {
+      "id": 1,
+      "name": "พิจารณา",
+      "poster": "1.jpg",
+      "artist": "มัสเกตเทียส์",
+      "musicgenre": "เพลงรัก hip hop",
+      "data": "8 กันยายน 2565",
+      "viewer": 40000000
+    },
+    {
+      "id": 2,
+      "name": "ไม่ไหวบอกไหว",
+      "poster": "2.jpg",
+      "artist": " บอย Peacemaker",
+      "musicgenre": "เพลงป๊อป",
+      "data": "30 มีนาคม 2562",
+      "viewer": 181846822
+    },
+    {
+      "id": 3,
+      "name": "ภาวนา",
+      "poster": "3.jpg",
+      "artist": "บิ๊ก ออแกร์นิค",
+      "musicgenre": "เพลงไทย hiphop",
+      "data": "23 มีนาคม 2563",
+      "viewer": 18423885
+    },
+    {
+      "id": 4,
+      "name": "ภาพจำ",
+      "poster": "4.jpg",
+      "artist": " ป๊อป ปองกูล",
+      "musicgenre": "เพลงป๊อป",
+      "data": "9 มีนาคม 2561",
+      "viewer": 138856370
+    },
+    {
+      "id": 5,
+      "name": "ซ่อนกลิ่น",
+      "poster": "5.jpg",
+      "artist": " ปาล์มมี่",
+      "musicgenre": "เพลงป๊อป",
+      "data": "9 ตุลาคม 2561",
+      "viewer": 230375537
+    },
+    {
+      "id": 6,
+      "name": "รถของเล่น",
+      "poster": "6.jpg",
+      "artist": " เสือโคร่ง",
+      "musicgenre": "เพลงป๊อป",
+      "data": "4 มีนาคม 2556",
+      "viewer": 177145993
+    },
+    {
+      "id": 7,
+      "name": "เรื่องที่ขอ",
+      "poster": "7.jpg",
+      "artist": " ลุลา",
+      "musicgenre": "เพลงป๊อป",
+      "data": "16 กันยายน 2560",
+      "viewer": 190409155
+    },
+    {
+      "id": 8,
+      "name": "เจ็บจนพอ",
+      "poster": "8.jpg",
+      "artist": " แว่นใหญ่",
+      "musicgenre": "เพลงป๊อป",
+      "data": "6 เมษายน 2562",
+      "viewer": 218650417
+    },
+    {
+      "id": 9,
+      "name": "ทางของฝุ่น",
+      "poster": "9.jpg",
+      "artist": "อะตอม ชนกันต์",
+      "musicgenre": "เพลงป๊อป",
+      "data": "18 กุมภาพันธ์ 2559",
+      "viewer": 134648128
+    },
+    {
+      "id": 10,
+      "name": "ลูกอม",
+      "poster": "10.jpg",
+      "artist": " วัชราวลี",
+      "musicgenre": "เพลงป๊อป",
+      "data": "31 ตุลาคม 2552",
+      "viewer": 191626660
+    },
+    {
+      "id": 11,
+      "name": "พิจารณา",
+      "poster": "",
+      "artist": "",
+      "musicgenre": "",
+      "date": "",
+      "viewer": ""
+    },
+    {
+      "id": 12,
+      "name": "รถของเล่น",
+      "poster": "C:\\fakepath\\6.jpg",
+      "artist": "เสือโคร่ง",
+      "musicgenre": "เพลงป๊อป",
+      "date": "4 มีนาคม 2556",
+      "viewer": "177145993"
+    }
+  ]
+}
