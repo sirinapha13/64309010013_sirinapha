@@ -13,30 +13,32 @@
   <style>
     .btn {
       margin: 50px 20px 20px 120px;
-      background-color: #995124;
-      color: #f3f0f6;
+      background-color: #d8781e;
+      color: #ffffff;
       padding: 10px 200px;
 
     }
 
     .th {
-      background-color: #935c0b;
-      color: #f2f0e4;
+      background-color: #ce7042;
+      color: #181208;
       text-align: center;
       font-size: 12px;
     }
 
     .tr {
-      background-color: #b75f28;
+      background-color: #f5b172;
       font-size: 20px;
       text-align: center;
+
     }
+  
   </style>
 
   <title></title>
 </head>
 
-<body style="background-color:#de9e6b;" onload="getAjex()">
+<body style="background-color:#9e5514;" onload="getAjex()">
   <div class="container">
     <button class="btn" onclick="prev()">ก่อนหน้า</button>
     <button class="btn" onclick="next()">ถัดไป</button>
@@ -48,7 +50,7 @@
     let i = 0;
 
     function getAjex() {
-      xhttp.open("GET", 'http://localhost:3000/musicblog');
+      xhttp.open("GET", 'http://localhost:3000/movieReview');
       xhttp.send();
       xhttp.onload = function () {
         let obj = JSON.parse(this.responseText);
@@ -57,23 +59,25 @@
         temp +=
           '<thead class="th">' +
           '<th>ID</th>' +
-          '<th>Poster</> ' +
-          '<th>Name</th>' +
-          '<th>artist</th>' +
-          '<th>musicgenre</th>' +
-          '<th>data</th>' +
-          '<th>viewer</th>' +
-          
+          '<th>รูป</> ' +
+          '<th>ชื่อภาพยนต์</th>' +
+          '<th>ความยาวหนัง</th>' +
+          '<th>ผู้กำกับ</th>' +
+          '<th>หมวดหมู่</th>' +
+          '<th>ตัวอย่างภาพยนต์</th>' +
+          '<th>คะแนนเฉลี่ย</th>' +
           '</thead > ' +
           '<tr class="tr">' + '<td>' + obj[i].id + '</td>' +
-          '<td>' + '<img src="' + obj[i].poster + '"width="200px" ></td>' +
-          '<td>' + obj[i].name + '</td>'+  
-          '<td>' + obj[i].artist + '</td>'+
-          '<td>' + obj[i].musicgenre + '</td>'+ 
-          '<td>' + obj[i].data + '</td>'+ 
-          '<td>' + obj[i].viewer + '</td>'+                     
+          '<td>' + '<img src="' + obj[i].picture + '" width="200px"></td>' +
+          '<td>' + obj[i].movieName + '</td>' + '<td>' + obj[i].movieLength + '</td>' +
+          '<td>' + obj[i].director + '</td>' + '<td>' + obj[i].category + '</td>' +
+          '<td>' + '<iframe width="500" height="295" src="' + obj[i].trailer +
+          '"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
+          '</td>' +
+          '<td>' + obj[i].review.score.average + '</td>' +
           '</tr>'
         document.getElementById('display').innerHTML = '<table class="table table-bordered">' + temp + '</table>'
+        
       }
     }
 

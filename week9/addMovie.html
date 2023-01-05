@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="</head>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<body style="background-color:#c97b37;">
+    <div class="container">
+        <form id="myform">
+            <div class="row">
+                <div class="col-5">
+                    <label>movieName</label>
+                    <input type="text" id="movieName" class="form-control">
+                </div>
+                <div class="col-5">
+                    <label>movieLength</label>
+                    <input type="text" id="movieLength" class="form-control">
+                </div>
+                <div class="col-4">
+                    <label>director</label>
+                    <input type="text" id="director" class="form-control">
+                </div>
+                <div class="col-4">
+                    <label>category</label>
+                    <input type="text" id="category" class="form-control">
+                </div>
+                <div class="col-4">
+                    <label>picture</label>
+                    <input type="file" id="picture" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label>trailer</label>
+                    <input type="text" id="trailer" class="form-control">
+                </div>
+                <div class="col-11">
+                    <label>review</label>
+                    <textarea class="form-control" id="review" rows="3"></textarea>
+
+                </div>
+
+                <div class="col-2">
+                    <label>screenPlay</label>
+                    <input type="number" max="10" name="" class="form-control" id="screenPlay" placeholder="1-10">
+                </div>
+                <div class="col-2">
+                    <label>playing</label>
+                    <input type="number" max="10" name="" class="form-control" id="playing" placeholder="1-10">
+                </div>
+                <div class="col-2">
+                    <label>music</label>
+                    <input type="number" max="10" name="" class="form-control" id="music" placeholder="1-10">
+                </div>
+                <div class="col-2">
+                    <label>actorSkills</label>
+                    <input type="number" max="10" name="" class="form-control" id="actorSkills" placeholder="1-10">
+                </div>
+                <div class="col-3">
+                    <label>graphics</label>
+                    <input type="number" max="10" name="" class="form-control" id="graphics" placeholder="1-10">
+                </div>
+                <div class="col-2">
+                    <label>average</label>
+                    <input type="number" max="10" name="" class="form-control" id="average" placeholder="1-10">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input class="btn btn-primary" type="button" value="AddMovie" onclick="AddMovie()">
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script>
+        function AddMovie() {
+
+
+            let obj = {
+                "id": '',
+                "movieName": document.forms['myform']['movieName'].value,
+                "movieLength": document.forms['myform']['movieLength'].value,
+                "director": document.forms['myform']['director'].value,
+                "category": document.forms['myform']['category'].value,
+                "picture": document.forms['myform']['picture'].value,
+                "trailer": document.forms['myform']['trailer'].value,
+                "review": {
+                    "review": document.forms['myform']['review'].value,
+                    "score": {
+                        "screenPlay": document.forms['myform']['screenPlay'].value,
+                        "playing": document.forms['myform']['playing'].value,
+                        "music": document.forms['myform']['music'].value,
+                        "actorSkills": document.forms['myform']['actorSkills'].value,
+                        "graphics": document.forms['myform']['graphics'].value,
+                        "average": null
+                    }
+                }
+            }
+            console.log(obj);
+            let text = JSON.stringify(obj);
+
+            console.log("Text", text);
+
+            let xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "http://localhost:3000/movieReview");
+            xhttp.setRequestHeader("Content-Type", "application/json");
+            xhttp.send(text);
+        }
+    </script>
+
+</body>
+
+</html>

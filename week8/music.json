@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "พิจารณา",
-      "poster": "1.jpg",
+      "poster": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWpSNuP1IErT2svjfyafoD0TrrkbaiTIWSJ19O03ivqJh3aXC6KX-VjuWSWshcwiu9i1godB8oRxNMqr2SBdJ5bspPWt4zwe90JDX5zI3zrOWx_toafJRA_6TFVNZ1h4ANzaXO0hpMfKm-tbnQwTr-W-cuvQMk9S4h7Dk7V4cDhZ0XGdsaA2RCcDHVXQ/s640/Musketeers%20Ft.%20MAIYARAP%20-%20Consider.jpg",
       "artist": "มัสเกตเทียส์",
       "musicgenre": "เพลงรัก hip hop",
       "data": "8 กันยายน 2565",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "ไม่ไหวบอกไหว",
-      "poster": "2.jpg",
+      "poster": "https://s.isanook.com/jo/0/rp/r/w700/ya0xa0m1w0/aHR0cDovL2ltYWdlLmpvb3guY29tL0pPT1hjb3Zlci8wLzIwMGVjOWJkMDgwNDFkMjgvNjQwLmpwZw==.jpg",
       "artist": " บอย Peacemaker",
       "musicgenre": "เพลงป๊อป",
       "data": "30 มีนาคม 2562",
@@ -21,8 +21,8 @@
     {
       "id": 3,
       "name": "ภาวนา",
-      "poster": "3.jpg",
-      "artist": "บิ๊ก ออแกร์นิค",
+      "poster": "https://www.thaiticketmajor.com/variety/img_content/imgeditor/66230262_408323443116703_7999310365222735324_n.jpg",
+      "artist": "me you",
       "musicgenre": "เพลงไทย hiphop",
       "data": "23 มีนาคม 2563",
       "viewer": 18423885
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "ภาพจำ",
-      "poster": "4.jpg",
+      "poster": "https://s.isanook.com/jo/0/rp/r/w700/ya0xa0m1w0/aHR0cDovL2ltYWdlLmpvb3guY29tL0pPT1hjb3Zlci8wLzkyMGQ2ZTY2N2ZhYTg2NjMvNjQwLmpwZw==.jpg",
       "artist": " ป๊อป ปองกูล",
       "musicgenre": "เพลงป๊อป",
       "data": "9 มีนาคม 2561",
@@ -39,7 +39,7 @@
     {
       "id": 5,
       "name": "ซ่อนกลิ่น",
-      "poster": "5.jpg",
+      "poster": "https://static.amarintv.com/app/uploads/2018/10/43362301_2283691184977582_348.jpg",
       "artist": " ปาล์มมี่",
       "musicgenre": "เพลงป๊อป",
       "data": "9 ตุลาคม 2561",
@@ -48,7 +48,7 @@
     {
       "id": 6,
       "name": "รถของเล่น",
-      "poster": "6.jpg",
+      "poster": "https://cms.dmpcdn.com/musicarticle/2020/09/21/6e6755e0-fbc0-11ea-b266-63e567a949c5_original.jpg",
       "artist": " เสือโคร่ง",
       "musicgenre": "เพลงป๊อป",
       "data": "4 มีนาคม 2556",
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "name": "เรื่องที่ขอ",
-      "poster": "7.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/th/thumb/1/1e/%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%AD-LULA-single.jpg/220px-%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%AD-LULA-single.jpg",
       "artist": " ลุลา",
       "musicgenre": "เพลงป๊อป",
       "data": "16 กันยายน 2560",
@@ -66,7 +66,7 @@
     {
       "id": 8,
       "name": "เจ็บจนพอ",
-      "poster": "8.jpg",
+      "poster": "https://s.isanook.com/jo/0/rp/r/w300/ya0xa0m1w0/aHR0cDovL2ltYWdlLmpvb3guY29tL0pPT1hjb3Zlci8wLzFkMDhjNDE4MTM5MjJkZjcvNjQwLmpwZw==.jpg",
       "artist": " แว่นใหญ่",
       "musicgenre": "เพลงป๊อป",
       "data": "6 เมษายน 2562",
@@ -75,7 +75,7 @@
     {
       "id": 9,
       "name": "ทางของฝุ่น",
-      "poster": "9.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/th/a/ae/%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%9D%E0%B8%B8%E0%B9%88%E0%B8%99-Atom-single.jpg",
       "artist": "อะตอม ชนกันต์",
       "musicgenre": "เพลงป๊อป",
       "data": "18 กุมภาพันธ์ 2559",
@@ -84,7 +84,7 @@
     {
       "id": 10,
       "name": "ลูกอม",
-      "poster": "10.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/th/b/b3/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AD%E0%B8%A1-%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%A5%E0%B8%B5-single.jpg",
       "artist": " วัชราวลี",
       "musicgenre": "เพลงป๊อป",
       "data": "31 ตุลาคม 2552",
@@ -92,21 +92,12 @@
     },
     {
       "id": 11,
-      "name": "พิจารณา",
-      "poster": "",
+      "name": "รถของเล่น",
+      "poster": "https://upload.wikimedia.org/wikipedia/th/b/b3/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AD%E0%B8%A1-%E0%B8%A7%E0%B8%B1%E0%B8%8A%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%A5%E0%B8%B5-single.jpg",
       "artist": "",
       "musicgenre": "",
       "date": "",
       "viewer": ""
-    },
-    {
-      "id": 12,
-      "name": "รถของเล่น",
-      "poster": "C:\\fakepath\\6.jpg",
-      "artist": "เสือโคร่ง",
-      "musicgenre": "เพลงป๊อป",
-      "date": "4 มีนาคม 2556",
-      "viewer": "177145993"
     }
   ]
 }
