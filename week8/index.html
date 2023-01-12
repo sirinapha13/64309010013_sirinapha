@@ -31,6 +31,12 @@
       font-size: 20px;
       text-align: center;
     }
+    .button{
+      background-color: #b75f28;
+      padding: 10px 10px;
+      color: rgb(241, 235, 235);
+      border-radius: 10px;
+    }
   </style>
 
   <title></title>
@@ -40,9 +46,12 @@
   <div class="container">
     <button class="btn" onclick="prev()">ก่อนหน้า</button>
     <button class="btn" onclick="next()">ถัดไป</button>
+    
   </div>
   <div class="container" id="display"></div>
-
+  <div class="c">
+   <center> <a href="addmusic.html"><button class="button">addmusic</button></a> </center>
+  </div>
   <script>
     let xhttp = new XMLHttpRequest();
     let i = 0;
@@ -63,7 +72,7 @@
           '<th>musicgenre</th>' +
           '<th>data</th>' +
           '<th>viewer</th>' +
-          
+          '<th>video</th>' +
           '</thead > ' +
           '<tr class="tr">' + '<td>' + obj[i].id + '</td>' +
           '<td>' + '<img src="' + obj[i].poster + '"width="200px" ></td>' +
@@ -71,7 +80,12 @@
           '<td>' + obj[i].artist + '</td>'+
           '<td>' + obj[i].musicgenre + '</td>'+ 
           '<td>' + obj[i].data + '</td>'+ 
-          '<td>' + obj[i].viewer + '</td>'+                     
+            '<td>' + obj[i].viewer + '</td>'+           
+          '<td>' +  
+          '<iframe width="500" height="295" src="' + obj[i].video +
+            '"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
+            '</td>' +    
+
           '</tr>'
         document.getElementById('display').innerHTML = '<table class="table table-bordered">' + temp + '</table>'
       }
