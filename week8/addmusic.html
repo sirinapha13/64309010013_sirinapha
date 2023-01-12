@@ -44,6 +44,10 @@
                     <label for="" class="form-label">viewer</label>
                     <input type="number" name="" class="form-control" id="viewer">
                 </div>
+                <div class="col-6">
+                    <label for="" class="form-label">video</label>
+                    <input type="text" name="" class="form-control" id="video">
+                </div>
                                
             </div>
             <div class="row">
@@ -56,6 +60,7 @@
 </div>
 <script>
     function addmusic() {
+        alert("เพิ่มเพลงสำเร็จ");
         let obj = {
             "id": null,
             "name": document.forms['myform']['name'].value,
@@ -64,6 +69,7 @@
             "musicgenre": document.forms['myform']['musicgenre'].value,
             "date": document.forms['myform']['data'].value,
             "viewer": document.forms['myform']['viewer'].value,
+            "video": document.forms['myform']['video'].value,
                                  
         }
         console.log(obj);
