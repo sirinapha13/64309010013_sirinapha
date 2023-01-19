@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+
+<body>
+  
+  
+  <div id="chart_div" style="width: 800px; height: 500px;"></div>
+ 
+    <script>
+      google.charts.load('current', {'packages':['corechart', 'bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+
+        
+        var chartDiv = document.getElementById('chart_div');
+
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Men', 'Women'],
+          ['2005', 23.73778502, 8.028616852],
+          ['2006', 10.69643452, 4.04040404],
+          ['2007', 5.330587966, 3.189994379],
+          ['2008', 4.595588235,2.564526803],
+          ['2009',  4.321404456, 1.834862385],
+          ['2010', 3.817991632, 1.413487738],
+          ['2011', 4.115421003, 1.928882925],
+          ['2012', 4.365838113, 1.674937965],
+          ['2013', 5.686494575, 2.573158426],
+          ['2014', 9.958071279, 7.338820302],
+          ['2015', 16.40350877, 17.86941581]
+        ]);
+
+        var materialOptions = {
+
+          width: 900,
+          chart: {
+            title: 'ร้อยละของผู้ที่จัดตั้งห้างหุ้นส่วนทางแพ่งที่มีอายุตั้งแต่ 65 ปีขึ้นไป จำแนกตามเพศ อังกฤษและเวลส์ พ.ศ. 2548 ถึง พ.ศ. 2558',
+            subtitle: 'แผนภูมิแท่ง'
+
+          },hAxis: {
+            minValue: 100,
+          }
+          
+         
+        };
+
+        
+
+        function drawMaterialChart() {
+          var materialChart = new google.charts.Bar(chartDiv);
+          materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
+        }
+
+        
+
+        drawMaterialChart();
+    };
+        
+    </script>
+</body>
+
+</html>
